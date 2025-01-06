@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Home</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #e2dcd4;
+      height: 100vh;
+      width: 100vw;
+    }
+
+    header {
+      width: 100%;
+      height: 11%;
+      background-color: #CDC5BC;
+      display: flex;
+      align-items: center;
+      padding-left: 20px;
+    }
+
+    h1 {
+      font-size: 24px;
+    }
+
+    img#logo {
+      width: 100%;
+      height: 100%;
+    }
+
+    .uff {
+      width: 613px;
+      height: 314px;
+      margin: 0 auto;
+    }
+
+    .classes {
+      position: absolute;
+      top: 15%;
+      left: 25px;
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+    }
+
+    .class-item {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+
+    img#icone {
+      width: 60px;
+      height: 60px;
+      border-radius: 12px;
+    }
+
+    a {
+      text-decoration: none;
+      color: black;
+      font-size: 24px;
+    }
+    a:hover{
+      color: #d9a443;
+    }
+
+    li {
+      list-style-type: none;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Recentes</h1>
+  </header> 
+  <main>
+    <div class="uff"> 
+      <img src="img/uff.png" alt="UFF" id="logo"> 
+    </div>
+    <div class="classes">
+      <li class="class-item">
+        <a href="fac.html" target="_top"><img src="img/fac.png" alt="FAC" id="icone"></a>
+        <a href="fac.html" target="_top">Fundamentos de Arquitetura de Computadores</a>
+      </li>
+      <li class="class-item">
+        <a href="#"><img src="img/fcg.png" alt="FCG" id="icone"></a>
+        <a href="#">Fundamentos de Cálculo e Geometria</a>
+      </li>
+    </div>
+  </main>
+</body>
+</html>

@@ -1,0 +1,104 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Italiana&display=swap');
+
+.italiana-regular {
+  font-family: "Italiana", serif;
+}
+
+*{
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+body, html{
+  background-color: #f1f2f5;
+  background-image: url("../img/grid.png");
+  background-color: rgba( 255, 255, 255, 0.7);
+  background-blend-mode: overlay;
+}
+section#esquerda{
+  display:flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  position: absolute;
+  top: 2%;
+  left: 1%;
+  height: 10vh;
+  width: 280px;
+  border-radius: 7px;
+  box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.55);
+  background-color: #594036;
+  z-index: 1;
+  display: flex;
+  justify-content: flex-start; /* Espaça os itens horizontalmente */
+  padding: 0px 25px; /* Adiciona espaçamento interno */
+    gap: 15px;
+
+}
+div > a{
+  display: block;
+  text-decoration: none;
+  font-size: 44px;
+  color: #D9A443;
+  font-family: 'Italiana', sans-serif;
+    
+}
+section#esquerda > p{
+  display: block;
+  text-decoration: none;
+  font-size: 40px;
+  color: grey;
+  font-family: 'Italiana', sans-serif;
+}
+ul li{
+  display: inline-block;
+  position: relative;
+}
+ul li a{
+  display: block;
+  text-decoration: none;
+  padding: 0px 0px 0px 10px;
+  color: white;
+    font-size: 0px;
+}
+ul li a:hover{
+  color: #D9A443;
+}
+ul{
+  list-style: none;
+  display: flex;
+}
+ul {
+  list-style: none;
+  display: flex;
+  gap: 8px; /* Ajusta a distância entre os itens */
+}
+
+ul li a {
+  padding: 0 5px; /* Reduz o padding interno */
+}
+div > a:hover {
+  color: #F2D98D;
+}
+section#direita{
+  display:flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  position: absolute;
+  top: 2%;
+  left: 99%;
+  transform: translateX(-100%);
+  height: 10vh;
+  width: 215px;
+  border-radius: 7px;
+  box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.55);
+  background-color: #594036;
+  z-index: 1;
+  display: flex;
+  justify-content: flex-start; /* Espaça os itens horizontalmente */
+  padding: 0px 25px; /* Adiciona espaçamento interno */
+    gap: 15px;
+}
